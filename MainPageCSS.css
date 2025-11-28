@@ -1,0 +1,1035 @@
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 10px;
+	font-family: 'SF Pro Display', sans-serif;
+	src="SanFranciscoDisplay-Regular.otf";
+}
+
+a{
+	display: block;
+	text-decoration: none;
+}
+
+.container{
+	max-width: 98rem;
+	margin: 0 auto;
+	padding: 0 2.2rem;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	z-index:1400;
+	width:100%;
+	height: 4.4rem;
+	background-color: #434344;
+	background-filter: blur(2rem);
+}
+
+.nav-list{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 -1rem;
+}
+.nav-list-mobile{ 
+	display: none;
+}
+
+.nav-link{
+	font-size: 1.2rem;
+	color:#E2E2E6;
+	padding: 0 1rem;
+	transition: opacity .5s;
+}
+
+.nav-link:hover{
+	opacity: .7;
+}
+
+.nav-link-apple{s
+	width: 1.6rem;
+	height: 4.4rem;
+	background: url("apple.svg") center no-repeat;
+}
+
+.nav-link-search{
+	width: 1.6rem;
+	height: 4.4rem;
+	background: url("search.svg") center no-repeat;
+}
+.nav-link-bag{
+	width: 1.4rem:
+	height: 4.4rem;
+	background: url("bag.svg") center no-repeat;
+}
+
+.background-video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+video {
+  width: 100%;
+  height: auto; 
+  object-fit: cover;
+}
+/*--------FOR IPHONE 15----------*/
+
+.iphone-15{
+	background: url(apple.png);
+	margin-top: 2 rem;
+}
+.hero{
+	height: 60rem;
+	background-size: auto 60rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-top: .6rem solid #fff;
+	border-bottom: .6rem solid #fff;
+}
+
+.title{
+	color: #000000;
+	text-align: center;
+	padding-top: 5.5rem;
+}
+
+.title-heading{
+	font-size: 5rem;
+}
+.title-sub-heading{
+	font-size: 2.8rem;
+	margin-top: 0.6rem;
+	font-weight: 400;
+}
+
+
+.cta{
+	text-align: center;
+	margin-top:1.8rem;
+}
+
+.cta-link{
+	color: #1371CF;
+	font-size: 2.1rem;
+	display: inline-block;
+}
+
+.cta-link:nth-child(2){
+	margin-left:5rem;
+}
+
+.cta-link:hover{
+	border-bottom:2px solid #1371CF;
+}
+
+/*-------------FOR GOFTS---------------*/
+.gifts{
+	background: url(gifts.png);
+	margin-top: 0.5rem;
+}
+
+.hero{
+	height: 60rem;
+	background-size: auto 60rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-top: .6rem solid #fff;
+	border-bottom: .6rem solid #fff;
+}
+.title-gifts{
+	color: #000000;
+	text-align: center;
+	padding-top: 41rem;
+}
+
+.title-heading-gifts{
+	font-size: 5rem;
+}
+.title-sub-heading-gifts{
+	font-size: 2.8rem;
+	margin-top: 0.6rem;
+	font-weight: 400;
+}
+
+
+.cta{
+	text-align: center;
+	margin-top:1.8rem;
+}
+
+.cta-link{
+	color: #1371CF;
+	font-size: 2.1rem;
+	display: inline-block;
+}
+
+.cta-link:hover{
+	border-bottom:2px solid #1371CF;
+}
+
+/*-------------FOR IPHONE 15 PRO (same as above)--------------*/
+.iphone-15-pro{
+	background: url("applepro.png");
+	margin-top: 0.5rem;
+}
+
+.hero{
+	height: 60rem;
+	background-size: auto 60rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-top: .6rem solid #fff;
+	border-bottom: .6rem solid #fff;
+}
+
+.iphone-15-pro{
+	border-top: none;
+}
+
+.title-pro{
+	color: #fff;
+	text-align: center;
+	padding-top: 5.5rem;
+}
+
+.title-heading{
+	font-size: 5rem;
+}
+.title-sub-heading{
+	font-size: 2.8rem;
+	margin-top: 0.6rem;
+	font-weight: 400;
+}
+
+
+.cta{
+	text-align: center;
+	margin-top:1.8rem;
+}
+
+.cta-link{
+	color: #1371CF;
+	font-size: 2.1rem;
+	display: inline-block;
+}
+
+.cta-link:nth-child(2){
+	margin-left:5rem;
+}
+
+.cta-link:hover{
+	border-bottom:2px solid #1371CF;
+}
+
+/*------------------MACBOOK PRO------------------*/
+.macbook{
+	background: url("mac.jpg");
+	margin-top: 0.5rem;
+}
+
+.hero{
+	height: 60rem;
+	background-size: auto 60rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-top: .6rem solid #fff;
+	border-bottom: .6rem solid #fff;
+}
+
+.macbook{
+	border-top: none;
+}
+
+.title-pro{
+	color: #fff;
+	text-align: center;
+	padding-top: 5.5rem;
+}
+
+.title-heading{
+	font-size: 5rem;
+}
+.title-sub-heading{
+	font-size: 2.8rem;
+	margin-top: 0.6rem;
+	font-weight: 400;
+}
+
+
+.cta{
+	text-align: center;
+	margin-top:1.8rem;
+}
+
+.cta-link{
+	color: #1371CF;
+	font-size: 2.1rem;
+	display: inline-block;
+}
+
+.cta-link:nth-child(2){
+	margin-left:5rem;
+}
+
+.cta-link:hover{
+	border-bottom:2px solid #1371CF;
+}
+
+/*-------------FOR AIRPODS--------------*/
+.airpods{
+	background: url("airpodpro.png");
+	margin-top: 0.5rem;
+}
+
+.hero{
+	height: 60rem;
+	background-size: auto 60rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-top: .6rem solid #fff;
+	border-bottom: .6rem solid #fff;
+}
+
+.airpods{
+	border-top: none;
+}
+
+.title-pro{
+	color: #fff;
+	text-align: center;
+	padding-top: 5.5rem;
+}
+
+.title-heading{
+	font-size: 5rem;
+}
+.title-sub-heading{
+	font-size: 2.8rem;
+	margin-top: 0.6rem;
+	font-weight: 400;
+}
+
+
+.cta{
+	text-align: center;
+	margin-top:1.8rem;
+}
+
+.cta-link{
+	color: #1371CF;
+	font-size: 2.1rem;
+	display: inline-block;
+}
+
+.cta-link:nth-child(2){
+	margin-left:5rem;
+}
+
+.cta-link:hover{
+	border-bottom:2px solid #1371CF;
+}
+
+/*--------FOR ULTRA WATCH 2----------*/
+
+.watch{
+	background: url("watchultra.jpg");
+	margin-top: 0.5rem;
+}
+.hero{
+	height: 60rem;
+	background-size: auto 60rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-top: .6rem solid #fff;
+	border-bottom: .6rem solid #fff;
+}
+
+.title-watch{
+	color: #000000;
+	text-align: center;
+	padding-top: 5.5rem;
+}
+
+.title-heading-watch{
+	font-size: 5rem;
+}
+.title-sub-heading-watch{
+	font-size: 1.8rem;
+	color: #FD7220;
+	letter-spacing:0.6rem;
+	margin-top: 0.6rem;
+	font-weight: 550;
+}
+.title-sub-heading-2-watch{
+	font-size: 2rem;
+	margin-top: 0.6rem;
+	font-weight: 400;
+}
+
+
+.cta{
+	text-align: center;
+	margin-top:1.2rem;
+}
+
+.cta-link{
+	color: #1371CF;
+	font-size: 2.1rem;
+	display: inline-block;
+}
+
+.cta-link:nth-child(2){
+	margin-left:5rem;
+}
+
+.cta-link:hover{
+	border-bottom:2px solid #1371CF;
+}
+
+/*-----------------i15 buy-----------------*/
+.i15buy{
+	background: url("iphone blue.jpeg");
+	margin-top: 2 rem;
+	padding-top:16rem;
+	transition: background 0.5s ease;
+}
+.hero-15{
+	height: 60rem;
+	background-size: 55rem 55rem;
+	background-position: center 60%;
+	background-repeat: no-repeat;
+	border-top: .6rem solid #fff;
+	border-bottom: .6rem solid #fff;
+}
+
+.iphone-top-bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 4rem;
+	background-color: #f5f5f7;
+	border-bottom: 1px solid #d2d2d7;
+	position: absolute;
+	top: 4.4rem;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+
+.iphone-product-name{
+	font-size: 1.6rem;
+	font-weight: 700;
+	color: #1d1d1f;
+}
+
+.iphone-product-price{
+	font-size: 1.4rem;
+	font-weight: 400;
+	color: #1d1d1f;
+}
+
+.title-15buy{
+	color: #000000;
+	text-align: left;
+	padding-left:82rem;
+	padding-top: 18rem;
+}
+
+.title-heading-15buy{
+	font-size: 3rem;
+}
+.title-sub-heading-15buy{
+	font-size: 1.5rem;
+	margin-top: 0.6rem;
+	font-weight: 400;
+}
+.title-sub-heading-2-15buy{
+	font-size: 1.2rem;
+}
+
+
+.cta-15{
+	margin-left: 82.4rem;
+	margin-top:2rem;
+}
+
+.cta-link-15{
+	color: #1371CF;
+	font-size: 1.8rem;
+	padding-top: 14.5rem;
+	display: inline-block;
+}
+.cta-link-15:nth-child(2){
+	margin-left:3rem;
+}
+
+.cta-link-15:hover{
+	border-bottom:2px solid #1371CF;
+}
+
+/*-----------------MACBOOK BUY-----------------*/
+.macbuy{
+	background: url(imac.jpeg);
+	margin-top: 2 rem;
+	padding-top:16rem;
+}
+
+.hero-mac{
+	height: 60rem;
+	background-size: auto 60rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-top: .6rem solid #fff;
+	border-bottom: .6rem solid #fff;
+}
+.mac-top-bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 4rem;
+	background-color: #f5f5f7;
+	border-bottom: 1px solid #d2d2d7;
+	position: absolute;
+	top: 4.4rem;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+
+.mac-product-name{
+	font-size: 1.6rem;
+	font-weight: 700;
+	color: #1d1d1f;
+}
+
+.mac-product-price{
+	font-size: 1.4rem;
+	font-weight: 400;
+	color: #1d1d1f;
+}
+
+.title-macbuy{
+	color: #000000;
+	text-align: left;
+	padding-left:82rem;
+	padding-top: 18rem;
+}
+
+.title-heading-macbuy{
+	font-size: 3rem;
+}
+.title-sub-heading-macbuy{
+	font-size: 1.5rem;
+	margin-top: 0.6rem;
+	font-weight: 400;
+}
+.title-sub-heading-2-macbuy{
+	font-size: 1.2rem;
+}
+
+
+.cta-macbuy{
+	margin-left: 82.4rem;
+	margin-top:2rem;
+}
+
+.cta-link-macbuy{
+	color: #1371CF;
+	font-size: 1.8rem;
+	padding-top: 14.5rem;
+	display: inline-block;
+}
+.cta-link-macbuy:nth-child(2){
+	margin-left:3rem;
+}
+
+.cta-link-macbuy:hover{
+	border-bottom:2px solid #1371CF;
+}
+
+/*-----------------iPAD BUY-----------------*/
+.ipad{
+	background: url(ipadn.jpeg);
+	margin-top: 2 rem;
+	padding-top:16rem;
+}
+
+.hero-ipad{
+	height: 60rem;
+	background-size: auto 60rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-top: .6rem solid #fff;
+	border-bottom: .6rem solid #fff;
+}
+.ipad-top-bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 4rem;
+	background-color: #f5f5f7;
+	border-bottom: 1px solid #d2d2d7;
+	position: absolute;
+	top: 4.4rem;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+
+.ipad-product-name{
+	font-size: 1.6rem;
+	font-weight: 700;
+	color: #1d1d1f;
+}
+
+.ipad-product-price{
+	font-size: 1.4rem;
+	font-weight: 400;
+	color: #1d1d1f;
+}
+
+.title-ipad{
+	color: #000000;
+	text-align: left;
+	padding-left:82rem;
+	padding-top: 18rem;
+}
+
+.title-heading-ipad{
+	font-size: 3rem;
+}
+.title-sub-heading-ipad{
+	font-size: 1.5rem;
+	margin-top: 0.6rem;
+	font-weight: 400;
+}
+.title-sub-heading-2-ipad{
+	font-size: 1.2rem;
+}
+
+
+.cta-ipad{
+	margin-left: 82.4rem;
+	margin-top:2rem;
+}
+
+.cta-link-ipad{
+	color: #1371CF;
+	font-size: 1.8rem;
+	padding-top: 14.5rem;
+	display: inline-block;
+}
+.cta-link-ipad:nth-child(2){
+	margin-left:3rem;
+}
+
+.cta-link-ipad:hover{
+	border-bottom:2px solid #1371CF;
+}
+
+/*-----------------AIRPODS BUY-----------------*/
+.airpodsbuy{
+	background: url(airpodsbuy.jpeg);
+	margin-top: 2 rem;
+	padding-top:16rem;
+}
+
+.hero-airpods{
+	height: 60rem;
+	background-size: 60rem 60rem;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-top: .6rem solid #fff;
+	border-bottom: .6rem solid #fff;
+}
+.title-airpodsbuy{
+	color: #000000;
+	text-align: left;
+	padding-left:82rem;
+	padding-top: 18rem;
+}
+
+.title-heading-airpodsbuy{
+	font-size: 3rem;
+}
+.title-sub-heading-airpodsbuy{
+	font-size: 1.5rem;
+	margin-top: 0.6rem;
+	font-weight: 400;
+}
+.title-sub-heading-2-airpodsbuy{
+	font-size: 1.2rem;
+}
+
+
+.cta-airpodsbuy{
+	margin-left: 82.4rem;
+	margin-top:2rem;
+}
+
+.cta-link-airpodsbuy{
+	color: #1371CF;
+	font-size: 1.8rem;
+	padding-top: 14.5rem;
+	display: inline-block;
+}
+.cta-link-airpodsbuy:nth-child(2){
+	margin-left:3rem;
+}
+
+.cta-link-airpodsbuy:hover{
+	border-bottom:2px solid #1371CF;
+}
+
+/*-----------------VISION BUY-----------------*/
+.visionbuy{
+	background: url(applevision.jpeg);
+	margin-top: 2 rem;
+	padding-top:16rem;
+	transition: background 0.5s ease;
+}
+
+.hero-vision{
+	height: 60rem;
+	background-size: 60rem 60rem;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-top: .6rem solid #fff;
+	border-bottom: .6rem solid #fff;
+}
+
+.vision-top-bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 4rem;
+	background-color: #f5f5f7;
+	border-bottom: 1px solid #d2d2d7;
+	position: absolute;
+	top: 4.4rem;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+
+.vision-product-name{
+	font-size: 1.6rem;
+	font-weight: 700;
+	color: #1d1d1f;
+}
+
+.vision-product-price{
+	font-size: 1.4rem;
+	font-weight: 400;
+	color: #1d1d1f;
+}
+
+.watch-top-bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 4rem;
+	background-color: #f5f5f7;
+	border-bottom: 1px solid #d2d2d7;
+	position: absolute;
+	top: 4.4rem;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+
+.watch-product-name{
+	font-size: 1.6rem;
+	font-weight: 700;
+	color: #1d1d1f;
+}
+
+.watch-product-price{
+	font-size: 1.4rem;
+	font-weight: 400;
+	color: #1d1d1f;
+}
+
+.airpods-top-bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 4rem;
+	background-color: #f5f5f7;
+	border-bottom: 1px solid #d2d2d7;
+	position: absolute;
+	top: 4.4rem;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+
+.airpods-product-name{
+	font-size: 1.6rem;
+	font-weight: 700;
+	color: #1d1d1f;
+}
+
+.airpods-product-price{
+	font-size: 1.4rem;
+	font-weight: 400;
+	color: #1d1d1f;
+}
+
+.delivery-options{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	padding: 1.5rem 4rem;
+	background-color: #ffffff;
+	border-bottom: 1px solid #d2d2d7;
+	position: absolute;
+	top: 9.8rem;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+
+.delivery-option{
+	display: flex;
+	align-items: center;
+	gap: 0.8rem;
+	color: #6e6e73;
+	font-size: 1.3rem;
+}
+
+.delivery-icon{
+	font-size: 2rem;
+}
+
+.delivery-text{
+	font-weight: 400;
+}
+
+.delivery-divider{
+	color: #d2d2d7;
+	font-size: 1.6rem;
+}
+
+.buy-now-button{
+	background-color: #0071e3;
+	color: #ffffff;
+	padding: 0.8rem 2rem;
+	border-radius: 2rem;
+	font-size: 1.3rem;
+	font-weight: 500;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+	display: inline-block;
+}
+
+.buy-now-button:hover{
+	background-color: #0077ed;
+}
+
+.title-visionbuy{
+	color: #000000;
+	text-align: left;
+	padding-left:82rem;
+	padding-top: 18rem;
+}
+
+.title-heading-visionbuy{
+	font-size: 3rem;
+}
+.title-sub-heading-visionbuy{
+	font-size: 1.5rem;
+	margin-top: 0.6rem;
+	font-weight: 400;
+}
+.title-sub-heading-2-visionbuy{
+	font-size: 1.2rem;
+}
+
+
+.cta-visionbuy{
+	margin-left: 82.4rem;
+	margin-top:2rem;
+}
+
+.cta-link-visionbuy{
+	color: #1371CF;
+	font-size: 1.8rem;
+	padding-top: 14.5rem;
+	display: inline-block;
+}
+.cta-link-visionbuy:nth-child(2){
+	margin-left:3rem;
+}
+
+.cta-link-visionbuy:hover{
+	border-bottom:2px solid #1371CF;
+}
+
+/*-----------------WATCH BUY-----------------*/
+.watchbuy{
+	background: url(airwatchbuy.jpeg);
+	margin-top: 2 rem;
+	padding-top:16rem;
+}
+
+.hero-watch{
+	height: 60rem;
+	background-size: 60rem 60rem;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-top: .6rem solid #fff;
+	border-bottom: .6rem solid #fff;
+}
+.title-watchbuy{
+	color: #000000;
+	text-align: left;
+	padding-left:82rem;
+	padding-top: 18rem;
+}
+
+.title-heading-watchbuy{
+	font-size: 3rem;
+}
+.title-sub-heading-watchbuy{
+	font-size: 1.5rem;
+	margin-top: 0.6rem;
+	font-weight: 400;
+}
+.title-sub-heading-2-watchbuy{
+	font-size: 1.2rem;
+}
+
+
+.cta-watchbuy{
+	margin-left: 82.4rem;
+	margin-top:2rem;
+}
+
+.cta-link-watchbuy{
+	color: #1371CF;
+	font-size: 1.8rem;
+	padding-top: 14.5rem;
+	display: inline-block;
+}
+.cta-link-watchbuy:nth-child(2){
+	margin-left:3rem;
+}
+
+.cta-link-watchbuy:hover{
+	border-bottom:2px solid #1371CF;
+}
+
+.color-selection{
+	margin-top: 2rem;
+	text-align: left;
+}
+
+.color-label{
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: #000000;
+	margin-bottom: 0.8rem;
+}
+
+.color-options{
+	display: flex;
+	gap: 1rem;
+}
+
+.color-box{
+	width: 3.5rem;
+	height: 3.5rem;
+	border-radius: 50%;
+	border: 2px solid #d2d2d7;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.color-box:hover{
+	border-color: #1371CF;
+	transform: scale(1.1);
+}
+
+.color-natural{
+	background-color: #e8e6e1;
+}
+
+.color-blue{
+	background-color: #394f6b;
+}
+
+.color-black{
+	background-color: #2d2d2d;
+}
+
+.color-white{
+	background-color: #ffffff;
+	border: 2px solid #d2d2d7;
+}
+
+.color-silver{
+	background-color: #e3e4e5;
+}
+
+.color-space-gray{
+	background-color: #53565a;
+}
+
+.color-space-black{
+	background-color: #2d2d2d;
+}
+
+.color-iphone-pink{
+	background-color: #f4c2c2;
+}
+
+.color-iphone-blue{
+	background-color: #a7c7e7;
+}
+
+.color-iphone-white{
+	background-color: #ffffff;
+	border: 2px solid #d2d2d7;
+}
+
+.color-iphone-silver{
+	background-color: #e3e4e5;
+}
+
+.color-iphone-grey{
+	background-color: #6e6e73;
+}
+
+footer{
+	margin-top: 4rem;
+	padding-bottom:3rem;
+	font-size: 1.2rem;
+	color: #7E7E80;
+	background: #F5F5F7;
+	padding-left:28rem;
+	padding-right: 28rem;
+	padding-top: 1.8rem;
+}
+
+cta-link-support{
+		color: #7E7E80;
+		font-size: 1.2rem;
+		display: inline-block;
+	}
+.cta-link-support:hover{
+		border-bottom:2px solid  #7E7E80;
+	}
